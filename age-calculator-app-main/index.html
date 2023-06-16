@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <aside id="inputArea">
+          <div>
+            <label id="labelDay" for="day"> Day </label> <br />
+            <input id="inputDay" type="number" placeholder="DD" />
+            <p id="parDay"></p>
+          </div>
+
+          <div>
+            <label id="labelMonth" for="month"> Month </label> <br />
+            <input id="inputMonth" type="number" placeholder="MM" />
+            <p id="parMonth"></p>
+          </div>
+
+          <div>
+            <label id="labelYear" for="year"> Year </label> <br />
+            <input id="inputYear" type="number" placeholder="YYYY" />
+            <p id="parYear"></p>
+          </div>
+        </aside>
+
+        <aside id="actionPoint">
+          <hr />
+          <button id="submitButton">
+            <img src="assets/images/icon-arrow.svg" alt="" />
+          </button>
+        </aside>
+
+        <aside id="results">
+          <h1><span id="spanYear">- -</span> years</h1>
+          <h1><span id="spanMonth">- -</span> months</h1>
+          <h1><span id="spanDay">- -</span> days</h1>
+        </aside>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
